@@ -1,0 +1,26 @@
+<div class="w3-left" style="width: 400px;">
+  <div ><div ><h1 style="text-align: center;font-size: 100px;">𝓚𝓵𝓸𝓶𝓫𝓸</h1></div><h2 >helps you connect and share with the people in your life.</h2></div>
+</div>
+<div class="w3-right" style="width: 400px;">
+  <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+    <h4>Join</h4>
+    <hr class="w3-clear">
+    <form method="post" >{% csrf_token %}
+    <input name="username" type="text" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Username">
+    <input name="password" type="password" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Password">
+    <button type="submit" class="w3-button w3-theme-d1 w3-margin-bottom"> Sign In</button> 
+    </form>
+    <h4>New? Join</h4>
+    <hr class="w3-clear">
+    <form method="post" >{% csrf_token %}
+    <input name="firstname" type="text" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="First Name">
+    <input name="lastname" type="text" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Last Name">
+    <input name="contact" type="text" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="E-maill Address / Phone Number">
+    <input name="username" type="text" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Username">
+    <input name="password" type="password" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Password">
+    <input name="password2" type="password" class="w3-input w3-theme-d1 w3-margin-bottom" style="background-color: white !important;color: black !important;" placeholder="Re-Type Password">
+    <button type="submit" class="w3-button w3-theme-d1 w3-margin-bottom"> Sign Up</button> 
+    </form>
+  </div>
+
+  </div>
